@@ -1,0 +1,123 @@
+/* Only demo */
+@media (max-width: 1000px) {
+  .welcome-message {
+    display: none;
+  }
+}
+
+.navbar-nav.navbar-right li a{
+  color: #fff;
+  padding-left: 25px;
+  padding-right: 25px;
+}
+
+.home-banner-wrapper{
+  height: 618px;
+  width: 100%;
+  background: url("images/home-banner.jpg") no-repeat top center;
+  color: #ffffff;
+}
+
+.home-banner-wrapper h1{
+  font-size: 60px;
+  padding-top: 80px;
+  padding-bottom: 30px;
+}
+.home-banner-wrapper p{
+  font-size: 18px;
+  max-width: 500px;
+  margin-bottom: 60px;
+}
+.home-banner-wrapper .btn-lead{
+  min-width: 200px;
+}
+.home-banner-wrapper .btn-lead-secondary{
+  margin-right: 20px;
+}
+.front-end-navbar{
+  background: $navbar-default-bg;
+}
+body.frontend{
+  padding-top: 61px;
+}
+.gradient-blue-pastel{
+  @include gradient-blue-pastel;
+}
+.auth{
+  background-image: url("images/fullpage-bg.jpg");
+  background-position: top center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.loginscreen{
+  background: #fff;
+  padding: 20px;
+  margin-top: 30px;
+}
+.contact-section{
+  background: #f4f4f4 url("images/word_map.png") no-repeat center 60px;
+  min-height: 500px;
+  font-size: 18px;
+}
+.contact-section .fa{
+  padding-right: 10px;
+}
+.contact-section ul li{
+  border-bottom: 1px solid #dcdada;
+  color: #555555;
+  display: block;
+  clear: both;
+}
+.contact-section ul li span, .contact-section ul li i{
+  float: left;
+}
+.contact-section ul li i{
+  margin-top: 22px;
+  font-size: 25px;
+  min-width: 50px;
+  text-align: center;
+}
+.contact-section ul li span{
+  margin-left: 15px;
+  margin-bottom: 15px;
+  margin-top: 15px;
+}
+
+.blue-line{
+  width: 60px;
+  height: 1px;
+  margin: 60px auto 0;
+  border-bottom: 2px solid #539ab6;
+}
+.about_us_section{
+  padding-bottom: 50px;
+  font-size: 16px;
+  line-height: 32px;
+}
+.about_us_section p{
+  margin-bottom: 25px;
+}
+.navbar-brand{
+  margin-right: 30px;
+}
+.auth-link li a:hover{
+  background: #1077b9;
+}
+#termsofuseModal .modal-body h3{
+  margin-top: 20px;
+  color: #1c84c6;
+}
+#termsofuseModal p{
+  font-size: 16px;
+}
+.skin-1 .nav > li > a{
+  font-size: 16px;
+
+}
+.skin-1 .nav > li > a .fa{
+  font-size: 18px;
+  margin-right: 10px;
+}
+.landing-page .nav > li > a{
+  font-size: 15px;
+}
